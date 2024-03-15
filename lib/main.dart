@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:organizer_app/ui/cubit/mainpage_cubit.dart';
-import 'package:organizer_app/ui/views/mainpage.dart';
+import 'package:organizer_app/ui/views/pages/mainpage.dart';
+import 'package:organizer_app/ui/views/pages/profile_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
 providers: [
         BlocProvider(create: (context) => MainpageCubit()),
+
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

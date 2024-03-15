@@ -13,13 +13,13 @@ class _BackgroundWidgetState extends State<BackgroundWidget> {
     var screenHeigth = MediaQuery.of(context).size.height;
     var screenWidth = MediaQuery.of(context).size.width;
     return Container(
-      width: screenWidth / 2, // Genişlik
-      height: screenHeigth / 2, // Yükseklik
+      width: screenWidth / 2.5, // Genişlik
+      height: screenHeigth / 2.1, // Yükseklik
       decoration: BoxDecoration(
-        color: Colors.grey,
+        color: Colors.greenAccent.withOpacity(0.5),
         borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(500.0),
-          bottomLeft: Radius.circular(500.0),
+          bottomLeft: Radius.circular(screenWidth / 1.5),
+          bottomRight: Radius.circular(screenWidth / 1.5),
         ),
       ),
     );

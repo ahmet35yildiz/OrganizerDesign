@@ -1,5 +1,7 @@
 import 'package:organizer_app/data/entity/messages.dart';
 
+import '../entity/contacts.dart';
+
 class Repository {
   List<Messages> loadMessages() {
     var messagesList = <Messages>[];
