@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:organizer_app/ui/views/pages/profile_page.dart';
-import 'package:organizer_app/ui/views/widgets/mainpage_widgets/contacts_widget.dart';
-import 'package:organizer_app/ui/views/widgets/mainpage_widgets/main_background_widget.dart';
-import 'package:organizer_app/ui/views/widgets/profilepage_widgets/background_widget.dart';
-import 'package:organizer_app/ui/views/widgets/mainpage_widgets/messages_widgets.dart';
-import 'package:organizer_app/ui/views/widgets/mainpage_widgets/recents_widget.dart';
-import 'package:organizer_app/ui/views/widgets/mainpage_widgets/welcome_widget.dart';
+import 'package:organizer_app/ui/views/widgets/contacts_widget.dart';
+import 'package:organizer_app/ui/views/widgets/main_background_widget.dart';
+import 'package:organizer_app/ui/views/widgets/background_widget.dart';
+import 'package:organizer_app/ui/views/widgets/messages_widgets.dart';
+import 'package:organizer_app/ui/views/widgets/recents_widget.dart';
+import 'package:organizer_app/ui/views/widgets/welcome_widget.dart';
 
 import '../../cubit/mainpage_cubit.dart';
 
@@ -31,7 +31,7 @@ class _MainpageState extends State<Mainpage> {
 
     return Stack(children: [
       Scaffold(
-        body: SafeArea(
+        body: const SafeArea(
           child: SingleChildScrollView(
             child: Padding(
               padding: EdgeInsets.all(16.0),

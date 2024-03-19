@@ -19,7 +19,7 @@ class _RecentsWidgetState extends State<RecentsWidget> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Recents", style: TextStyle(fontWeight: FontWeight.bold)),
+            const Text("Recents", style: TextStyle(fontWeight: FontWeight.bold)),
             Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
               SizedBox(
                 height: screenHeigth / 3.5,

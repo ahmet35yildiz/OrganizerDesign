@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../data/entity/contacts.dart';
+import '../../../data/entity/contacts.dart';
 
 class ContactsWidget extends StatefulWidget {
   const ContactsWidget({super.key});

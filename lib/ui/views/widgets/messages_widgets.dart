@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../data/entity/messages.dart';
-import '../../../cubit/mainpage_cubit.dart';
+import '../../../data/entity/messages.dart';
+import '../../cubit/mainpage_cubit.dart';
 
 class MessagesWidget extends StatefulWidget {
   const MessagesWidget({super.key});
